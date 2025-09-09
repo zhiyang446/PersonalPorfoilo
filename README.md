@@ -4,6 +4,31 @@
 
 ---
 
+## 📸 Preview | 网站预览
+
+### Desktop View | 桌面端展示
+![Desktop Homepage](./screenshots/desktop-hero.png)
+*Hero section with dynamic typing effect | 带有动态打字效果的首页*
+
+![Desktop About](./screenshots/desktop-about.png)
+*About section with personal introduction | 个人介绍部分*
+
+![Desktop Skills](./screenshots/desktop-skills.png)
+*Interactive skills section | 交互式技能展示*
+
+![Desktop Portfolio](./screenshots/desktop-portfolio.png)
+*Portfolio showcase with code examples | 作品展示与代码示例*
+
+### Mobile View | 移动端展示
+<div align="center">
+  <img src="./screenshots/mobile-hero.png" alt="Mobile Hero" width="300">
+  <img src="./screenshots/mobile-portfolio.png" alt="Mobile Portfolio" width="300">
+</div>
+
+*Responsive design optimized for mobile devices | 针对移动设备优化的响应式设计*
+
+---
+
 ## English
 
 A modern, responsive personal portfolio website showcasing full-stack development skills and projects. Built with clean HTML, CSS, and JavaScript with a focus on performance and user experience.
@@ -82,6 +107,13 @@ PersonalPortfolio/
 ├── styles.css          # All CSS styles | 所有CSS样式
 ├── script.js           # JavaScript functionality | JavaScript功能
 ├── README.md           # Project documentation | 项目文档
+├── screenshots/        # Website screenshots | 网站截图
+│   ├── desktop-hero.png      # Desktop hero section | 桌面端首页
+│   ├── desktop-about.png     # Desktop about section | 桌面端关于页面
+│   ├── desktop-skills.png    # Desktop skills section | 桌面端技能页面
+│   ├── desktop-portfolio.png # Desktop portfolio section | 桌面端作品集
+│   ├── mobile-hero.png       # Mobile hero view | 移动端首页
+│   └── mobile-portfolio.png  # Mobile portfolio view | 移动端作品集
 └── assets/             # Images and other assets | 图片和其他资源
     └── images/         # Profile and project images | 个人资料和项目图片
 ```
@@ -136,6 +168,9 @@ Edit the CSS custom properties in `styles.css` | 在`styles.css`中编辑CSS自�
 2. **Projects | 项目** - Replace project data in the portfolio section | 替换作品集部分的项目数据
 3. **Skills | 技能** - Modify the skills section with your technologies | 修改技能部分，添加您的技术栈
 4. **Images | 图片** - Replace profile and project images in `assets/images/` | 替换`assets/images/`中的个人资料和项目图片
+5. **Screenshots | 截图** - Add your website screenshots to `screenshots/` folder | 将您的网站截图添加到`screenshots/`文件夹
+
+> 📝 **Note | 注意**: To add screenshots, capture your website using browser tools or screenshot software, then save them in the `screenshots/` folder following the naming convention shown above. | 要添加截图，请使用浏览器工具或截图软件捕获您的网站，然后按照上述命名规范将其保存在`screenshots/`文件夹中。
 
 #### Styling | 样式调整
 - **Typography | 字体** - Change fonts in the CSS file | 在CSS文件中更改字体
