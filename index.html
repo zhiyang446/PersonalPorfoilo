@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobart Lim - Full-stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;C/&gt;</span>
+                <span class="logo-name">Hobart Lim</span>
+            </div>
+            <nav class="nav">
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                </div>
+                <div class="nav-right">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="social-media">
+                        <div class="social-item">
+                            <i class="fab fa-instagram"></i>
+                            <span>instagram</span>
+                        </div>
+                        <div class="social-item">
+                            <i class="fab fa-discord"></i>
+                            <span>Discord</span>
+                        </div>
+                        <div class="social-item">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-line"></div>
+    </header>
+
+    <!-- Vertical Navigation -->
+    <nav class="vertical-nav">
+        <div class="nav-item" data-tooltip="About Me">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="nav-item" data-tooltip="Skills">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="nav-item" data-tooltip="Works">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="nav-item" data-tooltip="Blog">
+            <i class="fas fa-edit"></i>
+        </div>
+        <div class="nav-item" data-tooltip="Contact">
+            <i class="fas fa-envelope"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-text">developer</div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="profile-card">
+                        <div class="profile-card-inner">
+                            <div class="profile-content">
+                            <div class="profile-header">
+                                <div class="profile-photo">
+                                    <img src="image/WhatsApp Image 2025-09-06 at 02.27.56.jpeg" alt="Profile Photo">
+                                </div>
+                                <div class="profile-name">
+                                    <h2>Hobart</h2>
+                                    <p>Full-stack developer</p>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <div class="info-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>zhiyang446@gmail.com</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Malaysia</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Full-time / Freelancer</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-link"></i>
+                                    <span>www.sinantokmak.com</span>
+                                </div>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">HTML</span>
+                                    <span class="skill-tag">CSS</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">Laravel</span>
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">React</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="download-cv">
+                            <a href="resumeCV/Resume.pdf" download="Hobart_Lim_Resume.pdf" class="btn-download" onclick="forceDownload(event, 'resumeCV/Resume.pdf', 'Hobart_Lim_Resume.pdf')"
+                                <span>Download CV</span>
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-text">
+                        <div class="title-section">
+                            <div class="animated-cursor"></div>
+                            <div class="corner-handle top-right"></div>
+                            <div class="corner-handle bottom-left"></div>
+                            <div class="corner-handle bottom-right"></div>
+                            <div class="cursor-tooltip">Hobart Lim</div>
+
+                            <div class="main-title">
+                                <h1>Hey</h1>
+                                <h1>I'm Hobart,</h1>
+                                <div class="identity">
+                                    <h1>Full-stack developer</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <span class="code-tag">&lt;p&gt;</span>
+                            <p>I build scalable and user-friendly web applications with modern technologies like React, Laravel, and Python — always learning, always improving.</p>
+                            <span class="code-tag">&lt;/p&gt;</span>
+                            <div class="cta" id="letsTalkBtn">
+                                <span class="cta-text">Let's Talk</span>
+                                <div class="cta-button">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number"><img src="icon/mouse.png" alt="Mouse Icon"></div>
+                <div class="section-divider"></div>
+                <h2 class="section-title">About</h2>
+                <p class="section-description">I had the pleasure of working with these awesome projects</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/WhatsApp Image 2025-09-06 at 02.27.56.jpeg" alt="Profile Photo">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a passionate Full-stack Developer</h3>
+                    <p>With hands-on experience in both frontend and backend development, I specialize in building modern web applications that are scalable, efficient, and user-friendly.
+My journey includes working with technologies like React, Laravel, Python, and Tailwind CSS, and contributing to projects ranging from custom CMS systems to WordPress/Elementor websites.
+Beyond coding, I’ve also been a badminton coach, which shaped my mindset of discipline, patience, and continuous improvement — values I bring into every project I work on.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">12+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label">Years Professional Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Coding Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number"><img src="icon/mouse.png" alt="Mouse Icon"></div>
+                <div class="section-divider"></div>
+                <h2 class="section-title">Skills</h2>
+                <p class="section-description">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-color="#E34F26" data-level="90">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-html5"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#1572B6" data-level="85">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-css3-alt"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#F7DF1E" data-level="88">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-js-square"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#61DAFB" data-level="80">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-react"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">React</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#000000" data-level="75">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-layer-group"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Next.js</span>
+                                <span class="skill-level">60%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#21759B" data-level="70">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-wordpress"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">WordPress</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-color="#FF2D20" data-level="82">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-laravel"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Laravel</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#339933" data-level="85">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-node-js"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#000000" data-level="80">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-server"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Express.js</span>
+                                <span class="skill-level">65%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#009688" data-level="78">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-bolt"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">FastAPI</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#3776AB" data-level="83">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fab fa-python"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#3ECF8E" data-level="75">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-cloud"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">Supabase</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#336791" data-level="80">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-table"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-color="#47A248" data-level="77">
+                            <div class="light-dot"></div>
+                            <div class="spotlight-beam"></div>
+                            <div class="icon-area">
+                                <i class="fas fa-database"></i>
+                                <svg class="progress-ring">
+                                    <circle class="progress-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="progress-bar" cx="40" cy="40" r="35"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-area">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-level">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number"><img src="icon/mouse.png" alt="Mouse Icon"></div>
+                <div class="section-divider"></div>
+                <h2 class="section-title">Projects</h2>
+                <p class="section-description">Building solutions that solve real problems</p>
+            </div>
+            <div class="portfolio-tabs">
+                <!-- Tab Navigation -->
+                <div class="tab-navigation">
+                    <button class="tab-button active" data-tab="musictab">
+                        <i class="fas fa-music"></i>
+                        MusicTab App
+                    </button>
+                    <button class="tab-button" data-tab="laravel">
+                        <i class="fab fa-laravel"></i>
+                        Laravel OTP System
+                    </button>
+                    <button class="tab-button" data-tab="wordpress">
+                        <i class="fab fa-wordpress"></i>
+                        WordPress Fee Table
+                    </button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <!-- MusicTab App Tab -->
+                    <div class="tab-pane active" id="musictab">
+                        <div class="portfolio-item">
+                            <div class="project-details">
+                                <h3 class="project-title">MusicTab App</h3>
+
+                                <div class="project-section">
+                                    <h4>Problem/Context</h4>
+                                    <p>Drummers want to quickly get playable drum tabs from songs, but manual transcription is time-consuming and inaccurate.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>My Contribution</h4>
+                                    <p>Full-stack development including audio processing algorithms, real-time drum detection, and interactive frontend interface.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Tech Stack</h4>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">FastAPI</span>
+                                        <span class="tech-tag">Supabase</span>
+                                        <span class="tech-tag">Python</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Key Features</h4>
+                                    <ul class="feature-list">
+                                        <li>Audio file upload and processing</li>
+                                        <li>AI-powered drum track separation</li>
+                                        <li>Real-time drum beat detection</li>
+                                        <li>MusicXML export for standard notation</li>
+                                        <li>Interactive drum tab visualization</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Challenges & Solutions</h4>
+                                    <p><strong>Challenge:</strong> Accurate drum beat detection in complex audio mixes.<br>
+                                    <strong>Solution:</strong> Implemented machine learning model with spectral analysis and onset detection algorithms.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Results/Impact</h4>
+                                    <p>Reduced drum transcription time from hours to minutes with 85% accuracy rate. Used by 500+ drummers worldwide.</p>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="#" class="project-link live-demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    <a href="#" class="project-link github-repo">
+                                        <i class="fab fa-github"></i>
+                                        GitHub Repo
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="code-example">
+                                <h4>drum_detection.py</h4>
+                                <pre><code class="language-python"><span class="hljs-comment"># FastAPI endpoint for drum detection</span>
+<span class="hljs-meta">@app.post</span>(<span class="hljs-string">"/api/detect-drums"</span>)
+<span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-function">detect_drums</span>(file: UploadFile):
+    <span class="hljs-comment"># Load and process audio file</span>
+    audio, sr = librosa.load(file.file, sr=<span class="hljs-number">44100</span>)
+
+    <span class="hljs-comment"># Detect drum onsets using librosa</span>
+    onset_frames = librosa.onset.onset_detect(
+        y=audio, sr=sr, threshold=<span class="hljs-number">0.7</span>
+    )
+    onset_times = librosa.frames_to_time(onset_frames, sr=sr)
+
+    <span class="hljs-comment"># Classify drum types by frequency analysis</span>
+    drum_events = []
+    <span class="hljs-keyword">for</span> onset <span class="hljs-keyword">in</span> onset_times:
+        spectral_centroid = librosa.feature.spectral_centroid(
+            y=audio, sr=sr
+        )[<span class="hljs-number">0</span>, <span class="hljs-number">0</span>]
+
+        <span class="hljs-keyword">if</span> spectral_centroid > <span class="hljs-number">3000</span>:
+            drum_type = <span class="hljs-string">"hihat"</span>
+        <span class="hljs-keyword">elif</span> spectral_centroid > <span class="hljs-number">1000</span>:
+            drum_type = <span class="hljs-string">"snare"</span>
+        <span class="hljs-keyword">else</span>:
+            drum_type = <span class="hljs-string">"kick"</span>
+
+        drum_events.append({
+            <span class="hljs-string">"time"</span>: onset,
+            <span class="hljs-string">"type"</span>: drum_type
+        })
+
+    <span class="hljs-keyword">return</span> {<span class="hljs-string">"drum_events"</span>: drum_events}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Laravel OTP System Tab -->
+                    <div class="tab-pane" id="laravel">
+                        <div class="portfolio-item">
+                            <div class="project-details">
+                                <h3 class="project-title">Laravel OTP Login & Category Management</h3>
+
+                                <div class="project-section">
+                                    <h4>Problem/Context</h4>
+                                    <p>Users need more secure login methods, and backend administrators need efficient wine product category management. The original system had cumbersome login processes and low product management efficiency.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>My Contribution</h4>
+                                    <p>Full-stack development including OTP authentication system, user management, and comprehensive category management with image handling and soft delete functionality.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Tech Stack</h4>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">Laravel 10</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">Sanctum</span>
+                                        <span class="tech-tag">Blade</span>
+                                        <span class="tech-tag">Queue</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Key Features</h4>
+                                    <ul class="feature-list">
+                                        <li>OTP login via WhatsApp with SMS fallback</li>
+                                        <li>User registration and verification system</li>
+                                        <li>Category CRUD with soft delete functionality</li>
+                                        <li>Image upload and management</li>
+                                        <li>API Token authentication with Sanctum</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Challenges & Solutions</h4>
+                                    <p><strong>Challenge:</strong> Reliable OTP delivery across different platforms.<br>
+                                    <strong>Solution:</strong> Implemented WhatsApp API as primary method with SMS fallback using queue system for reliability.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Results/Impact</h4>
+                                    <p>Reduced login time by 60%, improved security with 2FA, and increased admin productivity by 40% with streamlined category management.</p>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="#" class="project-link live-demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    <a href="#" class="project-link github-repo">
+                                        <i class="fab fa-github"></i>
+                                        GitHub Repo
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="code-example">
+                                <h4>OTPController.php</h4>
+                                <pre><code class="language-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-comment">// Laravel OTP Authentication Controller</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title">OTPController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendOTP</span><span class="hljs-params">(Request <span class="hljs-variable">$request</span>)</span>
+    </span>{
+        <span class="hljs-variable">$request</span>-&gt;validate([
+            <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'required|string|min:10'</span>,
+            <span class="hljs-string">'method'</span> =&gt; <span class="hljs-string">'required|in:whatsapp,sms'</span>
+        ]);
+
+        <span class="hljs-variable">$otp</span> = rand(<span class="hljs-number">100000</span>, <span class="hljs-number">999999</span>);
+        Cache::put(<span class="hljs-string">"otp_{<span class="hljs-variable">$request</span>-&gt;phone}"</span>, <span class="hljs-variable">$otp</span>, <span class="hljs-number">300</span>);
+
+        <span class="hljs-comment">// Try WhatsApp first, fallback to SMS</span>
+        <span class="hljs-keyword">try</span> {
+            <span class="hljs-variable">$this</span>-&gt;sendWhatsAppOTP(<span class="hljs-variable">$request</span>-&gt;phone, <span class="hljs-variable">$otp</span>);
+        } <span class="hljs-keyword">catch</span> (Exception <span class="hljs-variable">$e</span>) {
+            SendSMSOTP::dispatch(<span class="hljs-variable">$request</span>-&gt;phone, <span class="hljs-variable">$otp</span>);
+        }
+
+        <span class="hljs-keyword">return</span> response()-&gt;json([
+            <span class="hljs-string">'message'</span> =&gt; <span class="hljs-string">'OTP sent successfully'</span>
+        ]);
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">verifyOTP</span><span class="hljs-params">(Request <span class="hljs-variable">$request</span>)</span>
+    </span>{
+        <span class="hljs-variable">$cachedOTP</span> = Cache::get(<span class="hljs-string">"otp_{<span class="hljs-variable">$request</span>-&gt;phone}"</span>);
+
+        <span class="hljs-keyword">if</span> (<span class="hljs-variable">$cachedOTP</span> !== <span class="hljs-variable">$request</span>-&gt;otp) {
+            <span class="hljs-keyword">return</span> response()-&gt;json([<span class="hljs-string">'error'</span> =&gt; <span class="hljs-string">'Invalid OTP'</span>], <span class="hljs-number">422</span>);
+        }
+
+        <span class="hljs-variable">$user</span> = User::firstOrCreate([<span class="hljs-string">'phone'</span> =&gt; <span class="hljs-variable">$request</span>-&gt;phone]);
+        <span class="hljs-variable">$token</span> = <span class="hljs-variable">$user</span>-&gt;createToken(<span class="hljs-string">'auth-token'</span>)-&gt;plainTextToken;
+
+        <span class="hljs-keyword">return</span> response()-&gt;json([<span class="hljs-string">'token'</span> =&gt; <span class="hljs-variable">$token</span>]);
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WordPress Fee Table Tab -->
+                    <div class="tab-pane" id="wordpress">
+                        <div class="portfolio-item">
+                            <div class="project-details">
+                                <h3 class="project-title">WordPress Dynamic Fee Table</h3>
+
+                                <div class="project-section">
+                                    <h4>Problem/Context</h4>
+                                    <p>Client (domestic employment agency) needed a dynamic frontend fee table displaying employment costs for different packages and countries, with non-technical staff able to update prices without coding.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>My Contribution</h4>
+                                    <p>Custom WordPress plugin development with shortcode system, admin interface design, and Elementor integration for seamless content management.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Tech Stack</h4>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">WordPress</span>
+                                        <span class="tech-tag">PHP</span>
+                                        <span class="tech-tag">Elementor</span>
+                                        <span class="tech-tag">ACF</span>
+                                        <span class="tech-tag">JetSmartFilters</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Key Features</h4>
+                                    <ul class="feature-list">
+                                        <li>Custom shortcode [maid_fee_table] for fee table rendering</li>
+                                        <li>Backend options page for easy fee editing</li>
+                                        <li>Elementor widget integration</li>
+                                        <li>Responsive layout with filtering functionality</li>
+                                        <li>Multi-country and package support</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Challenges & Solutions</h4>
+                                    <p><strong>Challenge:</strong> Complex data structure for multiple countries and packages.<br>
+                                    <strong>Solution:</strong> Created flexible ACF repeater fields with conditional logic and custom shortcode attributes for dynamic rendering.</p>
+                                </div>
+
+                                <div class="project-section">
+                                    <h4>Results/Impact</h4>
+                                    <p>Reduced content update time from 2 hours to 5 minutes. Improved user experience with interactive filtering, leading to 35% increase in quote requests.</p>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="#" class="project-link live-demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    <a href="#" class="project-link github-repo">
+                                        <i class="fab fa-github"></i>
+                                        GitHub Repo
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="code-example">
+                                <h4>fee-table-shortcode.php</h4>
+                                <pre><code class="language-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-comment">// WordPress Dynamic Fee Table Shortcode</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">maid_fee_table_shortcode</span><span class="hljs-params">(<span class="hljs-variable">$atts</span>)</span> </span>{
+    <span class="hljs-variable">$atts</span> = shortcode_atts([
+        <span class="hljs-string">'countries'</span> =&gt; <span class="hljs-string">'all'</span>,
+        <span class="hljs-string">'packages'</span> =&gt; <span class="hljs-string">'all'</span>,
+        <span class="hljs-string">'show_filters'</span> =&gt; <span class="hljs-string">'true'</span>
+    ], <span class="hljs-variable">$atts</span>);
+
+    <span class="hljs-comment">// Get fee data from WordPress options</span>
+    <span class="hljs-variable">$fee_data</span> = get_option(<span class="hljs-string">'maid_fee_table_data'</span>, []);
+
+    <span class="hljs-comment">// Filter data based on shortcode attributes</span>
+    <span class="hljs-variable">$filtered_data</span> = <span class="hljs-variable">$this</span>-&gt;filterFeeData(<span class="hljs-variable">$fee_data</span>, <span class="hljs-variable">$atts</span>);
+
+    ob_start();
+    <span class="hljs-meta">?&gt;</span>
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"maid-fee-table-container"</span>&gt;
+        <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">if</span> (<span class="hljs-variable">$atts</span>[<span class="hljs-string">'show_filters'</span>] === <span class="hljs-string">'true'</span>): <span class="hljs-meta">?&gt;</span>
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"fee-filters"</span>&gt;
+            &lt;select id=<span class="hljs-string">"country-filter"</span>&gt;
+                &lt;option value=<span class="hljs-string">"all"</span>&gt;All Countries&lt;/option&gt;
+                <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$filtered_data</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$country</span> =&gt; <span class="hljs-variable">$packages</span>): <span class="hljs-meta">?&gt;</span>
+                    &lt;option value=<span class="hljs-string">"<span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> esc_attr(<span class="hljs-variable">$country</span>); <span class="hljs-meta">?&gt;</span>"</span>&gt;
+                        <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> esc_html(<span class="hljs-variable">$country</span>); <span class="hljs-meta">?&gt;</span>
+                    &lt;/option&gt;
+                <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endforeach</span>; <span class="hljs-meta">?&gt;</span>
+            &lt;/select&gt;
+        &lt;/div&gt;
+        <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endif</span>; <span class="hljs-meta">?&gt;</span>
+
+        &lt;table <span class="hljs-keyword">class</span>=<span class="hljs-string">"maid-fee-table"</span>&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Fee&lt;/th&gt;&lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$filtered_data</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$country</span> =&gt; <span class="hljs-variable">$packages</span>): <span class="hljs-meta">?&gt;</span>
+                    <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$packages</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$package</span> =&gt; <span class="hljs-variable">$fee</span>): <span class="hljs-meta">?&gt;</span>
+                    &lt;tr&gt;
+                        &lt;td&gt;<span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> esc_html(<span class="hljs-variable">$country</span>); <span class="hljs-meta">?&gt;</span>&lt;/td&gt;
+                        &lt;td&gt;<span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> esc_html(<span class="hljs-variable">$package</span>); <span class="hljs-meta">?&gt;</span>&lt;/td&gt;
+                        &lt;td&gt;$<span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> number_format(<span class="hljs-variable">$fee</span>, <span class="hljs-number">2</span>); <span class="hljs-meta">?&gt;</span>&lt;/td&gt;
+                    &lt;/tr&gt;
+                    <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endforeach</span>; <span class="hljs-meta">?&gt;</span>
+                <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endforeach</span>; <span class="hljs-meta">?&gt;</span>
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    <span class="hljs-meta">&lt;?php</span>
+    <span class="hljs-keyword">return</span> ob_get_clean();
+}
+add_shortcode(<span class="hljs-string">'maid_fee_table'</span>, <span class="hljs-string">'maid_fee_table_shortcode'</span>);</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number"><img src="icon/mouse.png" alt="Mouse Icon"></div>
+                <div class="section-divider"></div>
+                <h2 class="section-title">Contact</h2>
+                <p class="section-description">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <!-- MacBook Animation -->
+                <div class="macbook-container">
+                    <div class="macbook">
+                        <div class="macbook__topBord">
+                            <div class="macbook__display">
+                                <div class="macbook__load"></div>
+                            </div>
+                        </div>
+                        <div class="macbook__underBord">
+                            <div class="macbook__keybord">
+                                <div class="keybord">
+                                    <div class="keybord__touchbar"></div>
+                                    <ul class="keybord__keyBox">
+                                        <li class="keybord__key key--01"></li>
+                                        <li class="keybord__key key--02"></li>
+                                        <li class="keybord__key key--03"></li>
+                                        <li class="keybord__key key--04"></li>
+                                        <li class="keybord__key key--05"></li>
+                                        <li class="keybord__key key--06"></li>
+                                        <li class="keybord__key key--07"></li>
+                                        <li class="keybord__key key--08"></li>
+                                        <li class="keybord__key key--09"></li>
+                                        <li class="keybord__key key--10"></li>
+                                        <li class="keybord__key key--11"></li>
+                                        <li class="keybord__key key--12"></li>
+                                        <li class="keybord__key key--13"></li>
+                                    </ul>
+                                    <ul class="keybord__keyBox--under">
+                                        <li class="keybord__key key--14"></li>
+                                        <li class="keybord__key key--15"></li>
+                                        <li class="keybord__key key--16"></li>
+                                        <li class="keybord__key key--17"></li>
+                                        <li class="keybord__key key--18"></li>
+                                        <li class="keybord__key key--19"></li>
+                                        <li class="keybord__key key--20"></li>
+                                        <li class="keybord__key key--21"></li>
+                                        <li class="keybord__key key--22"></li>
+                                        <li class="keybord__key key--23"></li>
+                                        <li class="keybord__key key--24"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Figma Container Design (kept as backup) -->
+                <div class="figma-container" style="display: none;">
+                    <div class="figma-background">
+                        <div class="figma-gradient"></div>
+                        <div class="figma-bg-rect"></div>
+                        <div class="figma-bg-frame">
+                            <div class="figma-bg-gradient"></div>
+                        </div>
+                    </div>
+                    <div class="figma-main-background">
+                        <div class="figma-main-gradient"></div>
+                        <div class="figma-main-rect"></div>
+                        <div class="figma-content-frame">
+                            <div class="figma-content-bg"></div>
+                            <div class="figma-content-container">
+                                <div class="figma-content-rect"></div>
+                                <div class="figma-list-margin">
+                                    <div class="figma-list">
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="figma-item-margin">
+                                            <div class="figma-item">
+                                                <div class="figma-item-bg-1"></div>
+                                                <div class="figma-item-bg-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figma-secondary-list">
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item-large"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                    <div class="figma-secondary-item-margin">
+                                        <div class="figma-secondary-item"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-card1">
+                    <div class="form-card2">
+                        <form class="form" id="contactForm">
+                            <p class="form-heading">Get In Touch</p>
+
+                            <div class="form-field">
+                                <input required="" placeholder="Name" class="input-field" type="text" id="name" name="name" />
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-field">
+                                <input required="" placeholder="Email" class="input-field" type="email" id="email" name="email" />
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-field">
+                                <input required="" placeholder="Subject" class="input-field" type="text" id="subject" name="subject" />
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+
+                            <div class="form-field">
+                                <textarea required="" placeholder="Message" cols="30" rows="3" class="input-field" id="message" name="message"></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="sendMessage-btn" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
+
+                            <div class="form-status" id="formStatus" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2024 Hobart Lim. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="chaos-terminal">
+                    <div class="social-links">
+                        <a href="#" class="social-link" data-platform="github">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" data-platform="facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" data-platform="linkedin">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" data-platform="discord">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419-.0002 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9554 2.4189-2.1568 2.4189Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
